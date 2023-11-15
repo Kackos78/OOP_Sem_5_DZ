@@ -14,12 +14,4 @@ class DepositAccountTest {
         depositAccount.take(500);
         Assertions.assertThrows(ArithmeticException.class, () -> depositAccount.take(50));
     }
-
-    void depositAccountTestThrowArithmeticException() {
-        DepositAccount depositAccount = new DepositAccount();
-        depositAccount.Put(1000);
-
-
     }
-    }
-

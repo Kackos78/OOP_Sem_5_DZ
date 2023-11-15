@@ -30,6 +30,7 @@ class AccountTest {
     }
 
 
+
     @org.junit.jupiter.api.Test
     void testTake1() {
         Account account = new Account();
@@ -48,7 +49,6 @@ class AccountTest {
         Assertions.assertThrows(ArithmeticException.class, () -> account.take(-100));
         Assertions.assertDoesNotThrow(() -> account.take(400));
     }
-
 
     @org.junit.jupiter.api.Test
     void testGetAmount() {
