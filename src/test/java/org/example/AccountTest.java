@@ -1,8 +1,6 @@
 package org.example;
 import org.junit.jupiter.api.Assertions;
-import org.junit.platform.commons.JUnitException;
-import java.lang.reflect.Executable;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class AccountTest {
 
